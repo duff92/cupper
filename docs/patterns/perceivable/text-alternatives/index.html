@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="canonical" href="https://paligo.net/categories/">
+    <link rel="canonical" href="https://paligo.net/patterns/perceivable/text-alternatives/">
     <link rel="apple-touch-icon" sizes="57x57" href="https://paligo.net/images/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="https://paligo.net/images/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="https://paligo.net/images/apple-touch-icon-72x72.png">
@@ -30,7 +30,7 @@
     </style>
     <title>
       
-        Categories | Paligo WCAG review
+        1.1.1 Non-text Content | Paligo WCAG review
       
     </title>
     
@@ -223,7 +223,7 @@
                         <ul>
                           
                             <li class="pattern">
-                              <a href="https://paligo.net/patterns/perceivable/text-alternatives/" >
+                              <a href="https://paligo.net/patterns/perceivable/text-alternatives/" aria-current="page">
                                 <svg class="bookmark-icon" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
                                   <use xlink:href="#bookmark"></use>
                                 </svg>
@@ -266,11 +266,87 @@
           
   <main id="main">
     <h1>
-      Categories
+      <svg class="bookmark-icon" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
+        <use xlink:href="#bookmark"></use>
+      </svg>
+      1.1.1 Non-text Content
     </h1>
-    <ul class="patterns-list">
+    
+    
       
-    </ul>
+
+  <nav class="toc" aria-labelledby="toc-heading">
+    <h2 id="toc-heading">Table of contents</h2>
+    <ol>
+      
+        <li>
+          <a href="#intent">
+            Intent
+          </a>
+        </li>
+      
+        <li>
+          <a href="#how-to-meet">
+            How to Meet
+          </a>
+        </li>
+      
+        <li>
+          <a href="#common-failures">
+            Common Failures
+          </a>
+        </li>
+      
+    </ol>
+  </nav>
+
+
+    
+    <p>Text alternatives must be provided for non-text content like images, controls, and multimedia to ensure equal access to information. This enables the content to be converted into formats that users need, like braille, speech, or large print.</p>
+<h2 id="intent">Intent</h2>
+<p>Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language.</p>
+<h2 id="how-to-meet">How to Meet</h2>
+<ol>
+<li>
+<p>For images:</p>
+<ul>
+<li>Add descriptive alt text that conveys the purpose/meaning</li>
+<li>Use empty alt=&quot;&quot; for decorative images</li>
+<li>Include longer descriptions via figcaption, aria-describedby, or links for complex images</li>
+<li>Ensure charts and graphs have text equivalents explaining the data</li>
+</ul>
+</li>
+<li>
+<p>For controls and input:</p>
+<ul>
+<li>Label all form controls with descriptive text</li>
+<li>Use aria-label or aria-labelledby when needed</li>
+<li>Ensure buttons and links have clear text describing their action</li>
+<li>Provide transcripts for audio/video content</li>
+</ul>
+</li>
+</ol>
+<h2 id="common-failures">Common Failures</h2>
+<ul>
+<li>Missing or inadequate alt text on images</li>
+<li>Using placeholder text as the only label for form fields</li>
+<li>Generic descriptions like &ldquo;image&rdquo; or &ldquo;photo&rdquo; that don&rsquo;t convey meaning</li>
+<li>Lack of text alternatives for multimedia content</li>
+<li>Missing labels on buttons and form controls</li>
+</ul>
+<!-- raw HTML omitted -->
+<pre><code>  &lt;li&gt;
+    &lt;strong&gt;&lt;a href=&quot;https://www.w3.org/TR/WCAG20/#text-equiv-all&quot;&gt;
+      &lt;svg class=&quot;wcag-icon&quot; viewBox=&quot;0 0 127.09899 67.763&quot; aria-hidden=&quot;true&quot; focusable=&quot;false&quot;&gt;
+        &lt;use xlink:href=&quot;#w3c&quot;&gt;&lt;/use&gt;
+      &lt;/svg&gt;
+      1.1.1 Non-text Content&lt;/a&gt; (level A)
+    &lt;/strong&gt;
+    
+  &lt;/li&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+
   </main>
 
           <footer role="contentinfo">
