@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Paligo WCAG review"
-baseURL = "https://paligo.net/"
+baseURL = "https://duff92.github.io/"
 canonifyURLs = true
 theme = "cupper"
 publishDir = "docs"
