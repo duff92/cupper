@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paligo WCAG review</title>
-    <link>https://duff92.github.io/wcag/operable/</link>
+    <link>https://duff92.github.io/cupper/wcag/operable/</link>
     <description>Recent content on Paligo WCAG review</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://duff92.github.io/wcag/operable/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://duff92.github.io/cupper/wcag/operable/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
